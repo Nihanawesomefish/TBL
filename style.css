@@ -1,45 +1,72 @@
-body{
-padding-top: 500px;
-margin: 0;
+body {
+         padding-top: 500px;
+         margin: 0;
+         font-size: 20px;
+         text-align: center;
 }
-.profile{
-width:200px;
-border-radius: 50%;
-margin-bottom: 50px;
+
+.profile {
+         width: 200px;
+         border-radius: 50%;
+         margin-bottom: 50px;
+         margin-top: 50px;
 }
-#welcome{
-position: absolute;
-text-align:center;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-height: 800px;
-height: 100%;
-width: 100%;
-background: linear-gradient(#007bff,#a8009a);
+
+#welcome {
+         position: absolute;
+         text-align: center;
+         left: 0;
+         right: 0;
+         top: 0;
+         bottom: 0;
+         height: 500px;
+
+         width: 100%;
+
+         background: linear-gradient(#007bff, #a8009a);
+         z-index: 1;
+}
+
+.line {
+         height: 6px;
+         background-color: black;
+         width: 70px;
+         margin: 8px auto;
+         text-align: center;
+}
+
+#bio {
+         text-align: center;
+}
+
+.menu {
+         z-index: 2;
+         list-style: none;
+         font-family: sans-serif;
+         position: fixed;
+         top: 10px;
+         right: 30px;
+         cursor: pointer;
 
 }
-.line{
-height: 6px;
-background-color: black;
-width: 70px;
-margin: 8px auto;
-text-align: center;         
-}
-#bio{
-text-align: center;
-}
-.menu{
-list-style: none;
-font-family: sans-serif;
-position: fixed;
-top: 10px;
-right: 30px;
-cursor: pointer;
+
+.links {
+         float: left;
+         color: white;
+         font-size: 20px;
+         padding-top: 2px;
+         padding-left: 15px;
+         padding-bottom: 2px;
+         padding-right: 15px;
 
 }
-.links{
-float: left;
-color:black;
+
+.links:hover {
+background-color: deepskyblue;
+}
+#name{
+font-family: 'Shadows Into Light', cursive;
+}
+html{
+scroll-behavior: smooth;
 }
